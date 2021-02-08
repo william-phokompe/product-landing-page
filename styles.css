@@ -33,6 +33,47 @@ nav > ul {
     justify-content: space-around;
 }
 
+@media (max-width: 650px) {
+    nav > ul {
+        flex-direction: column;
+    }
+}
+
+#mailSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#mailSection > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#mailSection input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#mailSection input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: burlywood;
+}
+
+#mailSection input[type='submit']:hover {
+    background-color: orange;
+    transition: background-color 2s;
+}
+
 a {
     color: #000;
     text-decoration: none;
