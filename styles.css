@@ -11,6 +11,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+#main {
+    position: relative;
+}
+
 li {
     list-style: none;
 }
